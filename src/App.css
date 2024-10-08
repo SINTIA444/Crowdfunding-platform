@@ -1,0 +1,65 @@
+/* App.css */
+
+/* Estilos globales */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #a2d8e8; /* Color de fondo celeste claro */
+}
+
+/* Contenedor principal de la aplicación */
+.app-container {
+  text-align: center;
+  padding: 40px;
+  color: #333; /* Color del texto */
+  background-color: rgba(
+    158,
+    177,
+    196,
+    0.8
+  ); /* Fondo blanco semi-transparente para el contenido */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto de elevación */
+}
+
+/* Navegación */
+nav {
+  margin-bottom: 20px; /* Espacio debajo de la navegación */
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #db34b7; /* Color del texto del enlace */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #2980b9; /* Color del enlace al pasar el mouse */
+}
+
+/* Detalles del Proyecto */
+.project-details {
+  background-color: #a8c0df; /* Color de fondo para los detalles del proyecto */
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto de elevación */
+}
+
+/* Botones */
+button {
+  background-color: #db34b7; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  font-size: 16px; /* Tamaño del texto */
+  transition: background-color 0.3s; /* Transición suave para el cambio de color */
+}
+
+button:hover {
+  background-color: #2980b9; /* Color de fondo del botón al pasar el mouse */
+}

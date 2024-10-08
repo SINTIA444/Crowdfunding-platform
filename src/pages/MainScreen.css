@@ -1,0 +1,53 @@
+/* src/pages/MainScreen.css */
+
+.main-screen-container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(158, 177, 196, 0.8); /* Fondo semi-transparente */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.role-selection {
+  margin: 20px 0;
+}
+
+.role-selection button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #db34b7; /* Color de fondo del botón */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.role-selection button:hover {
+  background-color: #2980b9; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos para la sección de estadísticas */
+.statistics-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.statistic-card {
+  background-color: #a8c0df; /* Color de fondo de las tarjetas */
+  padding: 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Hacer que las tarjetas ocupen espacio igual */
+}
+
+.statistic-card h3 {
+  margin: 0;
+}
+
+.statistic-card p {
+  font-size: 24px;
+  font-weight: bold;
+}
